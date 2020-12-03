@@ -1,0 +1,381 @@
+/*=============================================================
+fonts
+=============================================================*/
+@import url(../../../../fonts.googleapis.com/css¿family=Rubik_300,400,500,700,900,900i.cssi');
+
+
+/*=============================================================
+html and body
+=============================================================*/
+body {
+    background: #ffffff;
+    color: #626262;
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 65px;
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: none !important;
+}
+
+.btn {
+    white-space: inherit;
+}
+
+input,
+textarea {
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid #6e6e6e;
+    color: #6e6e6e
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    line-height: 12px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #b2b2b2;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+a {
+    font-weight: 500;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    font-size: 15px
+}
+
+a:hover,
+a:active {
+    color: #F9B538;
+    text-decoration: none;
+    outline: 0;
+
+}
+
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+::placeholder {
+    color: #6e6e6e;
+    text-transform: capitalize;
+}
+
+::-moz-placeholder {
+    color: #6e6e6e;
+    text-transform: capitalize;
+}
+
+:-ms-input-placeholder {
+    color: #6e6e6e;
+    text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+    color: #6e6e6e;
+    text-transform: capitalize;
+}
+
+.subscription-from ::placeholder {
+    color: #fff !important;
+
+}
+
+/*============= styles ===================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #212121
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom:
+}
+
+/* Margin Top bottom */
+
+.mt-5 {
+    margin-top: 5px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mtb-20-30 {
+    margin: 20px 0 30px;
+}
+
+.mtb-20-0 {
+    margin: 20px 0;
+}
+
+/* Pading Top bottom */
+
+
+.pt-10 {
+    padding-top: 10px
+}
+
+
+.pt-15 {
+    padding-top: 15px
+}
+
+
+.pt-20 {
+    padding-top: 20px
+}
+
+
+.pt-30 {
+    padding-top: 30px
+}
+
+
+
+.pt-40 {
+    padding-top: 40px
+}
+
+
+
+.pt-50 {
+    padding-top: 50px
+}
+
+
+
+.pt-60 {
+    padding-top: 60px
+}
+
+.pt-60 {
+    padding-top: 60px
+}
+
+.p-10 {
+    padding: 10px
+}
+
+.p-20 {
+    padding: 20px
+}
+
+.p-30 {
+    padding: 30px
+}
+
+.p-40 {
+    padding: 40px
+}
+
+.p-50 {
+    padding: 50px
+}
+
+.p-50 {
+    padding: 60px
+}
+
+.pt-pb-10 {
+    padding: 10px 0;
+}
+
+.pt-pb-20 {
+    padding: 20px 0;
+}
+
+.pt-pb-40 {
+    padding: 30px 0;
+}
+
+.pt-pb-50 {
+    padding: 50px 0;
+}
+
+.pt-pb-60 {
+    padding: 60px 0;
+}
+
+.pt-pb-70 {
+    padding: 70px 0;
+}
+
+.pt-pb-80 {
+    padding: 80px 0;
+}
+
+.pt-pb-90 {
+    padding: 90px 0;
+}
+
+.pt-pb-100 {
+    padding: 100px 0;
+}
+
+.mr-25 {
+    margin-right: 25px
+}
+
+/**/
+
+
+
+
+
+
+
+/*=============== preloader =================*/
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: radial-gradient(#222, black);*/
+    background: #FECA31;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-to-top {
+    background: #363636 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 20px;
+    color: #f9b538;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 10px;
+    padding: 13px 16px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    z-index: 9999;
+    transition: all .3s ease
+}
+
+.back-to-top:hover {
+    color: #363636;
+    background: #f9b538;
+
+}
